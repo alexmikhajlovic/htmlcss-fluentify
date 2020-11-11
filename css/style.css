@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width: 1200px;
+  margin: auto;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.float{
+  float: left;
+}
+a{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.log{
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.a-green{
+  padding: 5px 10px;
+  background-color: #64de82;
+  border-radius: 5px;
+}
+/* Fine regole generali */
+
+/* Inizio header */
+header{
+  height: 500px;
+  background-color: #001a4f;
+  background-image: url("../img/background-header.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
+}
+.header-top{
+  height: 80px;
+}
+
+/* Logo azienza */
+.header-top .logo{
+  width: 15%;
+}
+.header-top .logo img{
+  margin-top: 15px;
+}
+
+/* Area Links */
+.header-top .area-menu{
+  width: 50%;
+}
+.header-top .area-menu li{
+  font-size: 15px;
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 80px;
+}
+.header-top .area-users{
+  width: 35%;
+  text-align: right;
+}
+.header-top .area-users li{
+  font-size: 12px;
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 80px;
+}
+
+/* Area JUMBOTRON */
+.jumbotron{
+  width: 50%;
+  height: 420px;
+  position: relative;
+}
+.jumbotron-content{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.jumbotron-content h1{
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+/* Fine header */
+
+
+/* Inizio main */
+main{
+  height: 500px;
+  background-color: lightblue;
+}
