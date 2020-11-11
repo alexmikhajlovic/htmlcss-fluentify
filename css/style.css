@@ -61,7 +61,7 @@ header{
   width: 50%;
 }
 .header-top .area-menu li{
-  font-size: 15px;
+  font-size: 12px;
   display: inline-block;
   padding: 0 10px;
   line-height: 80px;
@@ -141,7 +141,7 @@ main{
 
 /* Seconda row */
 .row-analitycs{
-  height: 500px;
+  height: 600px;
 }
 /* Img */
 .analitycs-box-img{
@@ -171,4 +171,9 @@ text-align: center;
   color: #001a4f;
   text-transform: capitalize;
   text-decoration: underline;
+}
+/* Fine main */
+
+/* Inizio footer */
+
 }
