@@ -100,7 +100,7 @@ header{
 
 /* Inizio main */
 main{
-  height: 800px;
+  /* height: 800px; */
   /* background-color: lightblue; */
 }
 
@@ -175,8 +175,27 @@ text-align: center;
 /* Fine main */
 
 /* Inizio footer */
-footer .foot-row{
+footer{
   width: 100%;
-  height: 100px;
-  background-color: orange;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.foot.float{
+  width: calc(100% / 3);
+  line-height: 100px;
+}
+.foot.sx.float{
+  text-align: left;
+  font-size: 22px;
+}
+.foot.cx.float{
+  text-align: right;
+}
+.foot.dx.float{
+  text-align: right;
+}
+/* Link fixed */
+a.a-green.help{
+  position: fixed;
+  bottom: 0;
+  right: 10%
 }
