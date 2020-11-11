@@ -7,7 +7,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .container{
-  width: 1200px;
+  width: 1100px;
   margin: auto;
 }
 .clearfix::after{
@@ -100,6 +100,75 @@ header{
 
 /* Inizio main */
 main{
+  height: 800px;
+  /* background-color: lightblue; */
+}
+
+/* Row Grigia */
+.main-top{
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 50px;
+}
+.main-top p{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Prima row */
+.row-info{
   height: 500px;
-  background-color: lightblue;
+}
+.info-box{
+  width: calc(100% / 3);
+  height: 100%;
+  text-align: center;
+  padding: 0 10px;
+  margin: 20px 0;
+}
+/* Contenuto */
+.info-box img{
+  height: 35%;
+}
+.info-box h3{
+  font-size: 25px;
+  color: #64de82;
+}
+.info-box hr{
+  margin: 15px 0;
+}
+
+/* Seconda row */
+.row-analitycs{
+  height: 500px;
+}
+/* Img */
+.analitycs-box-img{
+  width: 50%;
+  height: 100%;
+}
+.analitycs-box-img img{
+width: 100%;
+text-align: center;
+}
+/* Contenuto */
+.analitycs-box-content{
+  width: 50%;
+  height: 100%;
+  padding: 5px 60px;
+}
+.analitycs-box-content h2{
+  font-size: 30px;
+}
+.analitycs-box-content p{
+  font-size: 20px;
+  color: grey;
+  padding: 15px 0;
+}
+/* Link */
+.analitycs-box-content a{
+  color: #001a4f;
+  text-transform: capitalize;
+  text-decoration: underline;
 }
